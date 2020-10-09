@@ -1,6 +1,6 @@
 # RemoteCat
 
-Experimental code execution, running Mimikatz without any changes to the orginal code, this code uses syscall to do the work, Mimikatz commands must be added in
+Experimental code execution, running Mimikatz without any changes to the orginal code, this code uses syscall to do the work, establish reverse shell, Mimikatz commands must be added in:
 
 ShellProcess.StartInfo.Arguments = "privilege::debug";
 
